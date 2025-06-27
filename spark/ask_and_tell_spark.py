@@ -9,6 +9,7 @@ This script uses PySpark's RDD to parallelize a simple quadratic function.
 
 import optuna
 
+
 try:
     from pyspark.sql import SparkSession
 except ImportError:
